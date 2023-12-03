@@ -10,14 +10,16 @@ function isEnoughCapacity(products, containerSize) {
 
         totalProdacts += list;
 
-        if (totalProdacts <= containerSize) {
+    }
+    
+      if (totalProdacts <= containerSize) {
+            
             return true;
 
         } else {
 
             return false;
         }
-    }
     
 }
 
